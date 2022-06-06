@@ -1,0 +1,192 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+p {
+	margin: 0;
+}
+
+ul, li {
+	display: block;
+}
+.header {
+	width: 100%;
+	background: rgb(0, 0, 0);
+	background-repeat: repeat;
+	background-image: linear-gradient( 68.4deg,  rgba(99,251,215,1) -0.4%, rgba(5,222,250,1) 100.2% );
+	z-index: 0;
+	position: absolute;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.nav img {
+	width: 80px;
+	height: 80px;
+	margin-right: 50px;
+}
+
+.menu li a {
+	color: rgb(236, 236, 236);
+	text-decoration: none;
+}
+
+.menu {
+	display: flex;
+	align-items: center;
+}
+
+.menu li {
+	margin-right: 50px;
+}
+
+.nav {
+	width: 100%;
+	display: flex;
+	background: #000;
+}
+
+.login li a {
+	color: rgb(236, 236, 236);
+	text-decoration: none;
+	margin-right: 50px;
+}
+
+.login {
+	display: flex;
+	align-items: center;
+	margin-left: auto;
+}
+
+.info {
+	width: 1920px;
+	height: 1080px;
+	z-index: -1;
+}
+
+.container2 {
+	width: 100%;
+}
+
+.stars {
+	fill: rgb(140, 181, 243);
+}
+
+.alert{
+	fill: red;
+	color: white;
+	display: none;
+}
+
+.constellation:hover .alert{
+	display: block;
+}
+
+.constellation:hover .stars {
+	filter: drop-shadow(0 0 10px rgb(211, 198, 255));
+	fill:rgb(195, 207, 225);
+	transition: all 0.2s;
+	transform: scale(1.2);     
+	transform-origin: 50% 50%;
+	transform-box: fill-box;
+}
+
+.constellation:hover .path {
+	filter: drop-shadow(0 0 10px rgb(118, 102, 153));
+	overflow: visible;
+	stroke:rgb(126, 143, 168);
+	transition: all 0.2s;
+}
+
+.image {
+	width: 100px;
+	height: 200px;
+	transform: translate(309px, 101px) rotate(115deg) scale(1.3);
+	display: none;
+}
+
+.constellation:hover .image {
+	filter: drop-shadow(0 0 10px rgb(255, 0, 0));
+	fill:rgb(255, 0, 0);
+	display: block;
+}
+
+.galaxy path {
+	fill: none;
+	stroke: rgb(106, 142, 213);
+	stroke-width: 1px;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	width: 100%;
+	height: 100%;
+}
+
+.aries {
+	transform: translate(535px, 345px) rotate(-7deg);
+	transform-origin: center center;
+}
+
+
+.pirces {
+	transform: translate(-89px, 633px) rotate(30deg);
+	transform-origin: center center;
+}
+
+.aquarius {
+	transform: translate(-95px, -1463px) rotate(-147deg);
+	transform-origin: center center;
+}
+
+.capriconus {
+	transform: translate(118px, 548px) rotate(-1deg);
+	transform-origin: center center;
+}
+
+.sagittarius {
+	transform: translate(584px, 14px) rotate(21deg);
+	transform-origin: center center;
+}
+
+.ophiucus {
+	transform: translate(-202px, -1035px) rotate(155deg);
+	transform-origin: center center;
+}
+
+.scorpius {
+	transform: translate(-814px, -554px) rotate(20deg);
+	transform-origin: center center;
+}
+
+.libra {
+	transform: translate(-178px, -1288px) rotate(160deg);
+	transform-origin: center center;
+}
+
+.virgo {
+	transform: translate(-238px, -787px) rotate(156deg);
+	transform-origin: center center;
+}
+
+.leo {
+	transform: translate(-924px, -197px) rotate(72deg);
+	transform-origin: center center;
+}
+
+.cancer {
+	transform: translate(119px, -438px) rotate(45deg);
+	transform-origin: center center;
+}
+
+.gemini {
+	transform: translate(-973px, -289px) rotate(306deg);
+	transform-origin: center center;
+}
+
+.tourus {
+	transform: translate(-912px, 189px) rotate(-11deg);
+	transform-origin: center center;
+}
